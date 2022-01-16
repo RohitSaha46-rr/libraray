@@ -1,0 +1,5 @@
+@media(max-width:400px){
+    .content{
+        background-image: url('./images/1.jpg');
+    }
+}

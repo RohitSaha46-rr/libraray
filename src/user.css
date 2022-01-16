@@ -1,0 +1,39 @@
+:root{
+    --text:#af055e;
+    --button:#af055e;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.user{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    /*background-color: #99d98c;*/
+}
+.user .container h1{
+    color: var(--text);
+    font-family: 'Comfortaa', cursive;
+}
+.user .container .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user .container .right{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user .container .right form button{
+    background-color: var(--button);
+    width: 10vw;
+    outline: none;
+    border: none;
+}

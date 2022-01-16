@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100vw;
+    height: 91vh;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://www.educ.cam.ac.uk/images/library/2021/carousel-welcome-slide1.jpg');
+    background-size: 100% 100%;
+    /*background-image: url(./images/1.jpg);*/
+    display: grid;
+    place-items: center;
+    list-style: none;
+    text-decoration:none;
+}
+.content .link{
+    text-decoration: none;
+}
+
+.content .container .row .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Cairo', sans-serif;
+}
+.content .container .row .left img{
+
+  cursor: pointer;
+ transition-duration: 5s;
+
+}
+
+.content .container .row .left h1:hover{
+    color: rgb(247, 6, 6);
+    border-bottom: 2px solid rgb(247, 6, 6);
+    cursor: pointer;
+}
+.content .container .row .left .box{
+    background-image: url(./images/admin.jpg);
+    background-size: 100% 100%;
+}

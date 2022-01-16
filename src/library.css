@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.library .container{
+    background-color: aqua;
+}
+.library .container .inpuut{
+   position: relative;
+    
+    margin-top: 10px;
+}
+.library .container #name{
+    width: 20vw;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    margin-top: 24px; 
+}
+.library .container .input{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   padding-top: 17px; 
+    pointer-events: none;
+    font-size: 1rem;
+    transition: 1.5s;
+}
+.library .container input:focus~.input,.library .container input:valid~.input{
+    top: -10px;
+    left: 0px;
+    font-size: 0.5rem;
+} 
+.library .container .form-check{
+    
+    margin-top: 10px;
+}

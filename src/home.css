@@ -1,0 +1,88 @@
+.home{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.home .head1{
+    background: linear-gradient(to right,#5f2c82,#49a09d);
+    height: 10vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    position: fixed;
+    right: 0vw;
+    left: 0vw;
+    z-index: 1;
+}
+.home .head1 .navbar-brand{
+    font-size: 2.5rem;
+}
+.home .content1{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 10vh;
+    
+    background-size: 100% 100%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: pic 10s linear infinite;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    
+}
+.home .content1 p{
+    
+    padding-top: 10px;
+}
+ @keyframes pic{
+    0%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/home_bg.jpeg');
+        }
+    50%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/home_bg1.jpeg');
+     }
+    100%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/home_bg2.jpeg');
+    }
+
+} 
+.home .content2{
+    position: relative;
+    
+    width: 100vw;
+    height: auto;
+    /*background-color: rgb(179, 169, 169);*/
+}
+.home .content2 .heading{
+    width: 19vw;
+    
+    margin: auto;
+    padding-top: 5rem;
+    font-family: 'Train One', cursive;
+    border-bottom: 3px solid rgb(3, 3, 3);
+}
+.home .content2 .container{
+    
+    height: auto;
+    
+  
+  }
+  .home .content2 .container .card-group{
+    
+    width: 25vw;
+    height: 75vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .home .content2 .container .card-group img:hover{
+      transform: scale(1.2);
+      transition: .4s linear;
+      cursor: pointer;
+  }
+  
