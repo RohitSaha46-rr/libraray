@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/libraray/static/css/main.1d0d346a.css",
+    "main.js": "/libraray/static/js/main.37a329e6.js",
+    "static/media/userhover.jpg": "/libraray/static/media/userhover.f9f71a1f97f131f12ada.jpg",
+    "static/media/adminhover.jpg": "/libraray/static/media/adminhover.befbee024a3963738f55.jpg",
+    "static/media/book3.jpg": "/libraray/static/media/book3.7134d253b810d5b3d271.jpg",
+    "static/media/book4.jpg": "/libraray/static/media/book4.965a8fc5eea47287f1a4.jpg",
+    "static/media/home_bg.jpeg": "/libraray/static/media/home_bg.c1bd96de24ee7c96918e.jpeg",
+    "static/media/home_bg1.jpeg": "/libraray/static/media/home_bg1.168cc2c583d51a5aa563.jpeg",
+    "static/media/arrow.jpg": "/libraray/static/media/arrow.0b0df5379be27d1c7c78.jpg",
+    "static/media/book2.jpg": "/libraray/static/media/book2.78f7e291c8b31556c161.jpg",
+    "static/media/1.jpg": "/libraray/static/media/1.f51f6d89acbff0e46ee0.jpg",
+    "static/media/book6.jpg": "/libraray/static/media/book6.a8746b8ba5d1be1a5d1f.jpg",
+    "static/media/home_bg2.jpeg": "/libraray/static/media/home_bg2.d8b96ed61e2dd10c8eec.jpeg",
+    "static/media/book1.jpg": "/libraray/static/media/book1.1c1b014e1e91e227803c.jpg",
+    "static/media/book5.jpg": "/libraray/static/media/book5.251cc45def1b2c748262.jpg",
+    "static/media/admin.jpg": "/libraray/static/media/admin.647e78e8133bcece9baf.jpg",
+    "static/media/login.png": "/libraray/static/media/login.77c94b5c3bd0714be7f5.png",
+    "index.html": "/libraray/index.html",
+    "main.1d0d346a.css.map": "/libraray/static/css/main.1d0d346a.css.map",
+    "main.37a329e6.js.map": "/libraray/static/js/main.37a329e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d0d346a.css",
+    "static/js/main.37a329e6.js"
+  ]
+}
