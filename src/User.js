@@ -29,19 +29,19 @@ function User(){
       alert("Email or Password is empty");
      //e.preventDefault();
     }
-    else if(temp_user[0].email1==e.target.value && temp_user.pass1==e.target.value){
+    else if(temp_user.email1==e.target.value && temp_user.pass1==e.target.value){
       alert(`Welcome ${initial_user}`);
       window.open('/libraray/home');
       final_user("");
       final_pass("");
     }
-    else if(temp_user[1].email2==e.target.value && temp_user.pass2==e.target.value){
+    else if(temp_user.email2==e.target.value && temp_user.pass2==e.target.value){
       alert(`Welcome ${initial_user}`);
       window.open('/libraray/home');
       final_user("");
       final_pass("");
     }
-    else if(temp_user[2].email3==e.target.value && temp_user.pass3==e.target.value){
+    else if(temp_user.email3==e.target.value && temp_user.pass3==e.target.value){
       alert(`Welcome ${initial_user}`);
       window.open('/libraray/home');
       final_user("");
