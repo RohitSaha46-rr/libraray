@@ -13,9 +13,13 @@ function User(){
     pass1:"12345"
     },
     {
-      email2:"rhitsaha46@gmail.com",
-      pass2:"54321"
+      email2:"sudipchatterjee441@gmail.com",
+      pass2:"Sudip@2000"
       },
+      {
+        email3:"souvikxyz@gmail.com",
+        pass3:"idontknow"
+        },
   ];
   
   const newpage=(e)=>{
@@ -32,6 +36,12 @@ function User(){
       final_pass("");
     }
     else if(temp_user[1].email2==e.target.value && temp_user.pass2==e.target.value){
+      alert(`Welcome ${initial_user}`);
+      window.open('/libraray/home');
+      final_user("");
+      final_pass("");
+    }
+    else if(temp_user[2].email3==e.target.value && temp_user.pass3==e.target.value){
       alert(`Welcome ${initial_user}`);
       window.open('/libraray/home');
       final_user("");
