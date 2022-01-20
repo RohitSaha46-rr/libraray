@@ -31,19 +31,19 @@ function User(){
     }
     else if(temp_user.email1==e.target.value && temp_user.pass1==e.target.value){
       alert(`Welcome ${initial_user}`);
-      window.open('/libraray/home');
+      window.open('/libraray/user/home');
       final_user("");
       final_pass("");
     }
     else if(temp_user.email2==e.target.value && temp_user.pass2==e.target.value){
       alert(`Welcome ${initial_user}`);
-      window.open('/libraray/home');
+      window.open('/libraray/user/home');
       final_user("");
       final_pass("");
     }
     else if(temp_user.email3==e.target.value && temp_user.pass3==e.target.value){
       alert(`Welcome ${initial_user}`);
-      window.open('/libraray/home');
+      window.open('/libraray/user/home');
       final_user("");
       final_pass("");
     }

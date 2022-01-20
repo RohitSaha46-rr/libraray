@@ -14,10 +14,10 @@ ReactDOM.render(
   <BrowserRouter>
   <Routes>
   <Route path="/libraray" element={<App/>}></Route>
-  <Route path="/libraray/user" element={<User/>}></Route>
-  <Route path="/libraray/sign" element={<Sign/>}></Route>
-  <Route path="/libraray/librarian" element={<Librarian/>}></Route>
-  <Route path="/libraray/home" element={<Home/>}></Route>
+  <Route path="/user" element={<User/>}></Route>
+  <Route path="/sign" element={<Sign/>}></Route>
+  <Route path="/librarian" element={<Librarian/>}></Route>
+  <Route path="/home" element={<Home/>}></Route>
   </Routes>
   </BrowserRouter>,
   document.getElementById('root')
