@@ -2,7 +2,54 @@
 import './user.css';
 import login_image from './images/login.png';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 function User(){
+  const state=useState();
+  const[initial_user,final_user]=useState("");
+  const[initial_pass,final_pass]=useState("");
+  const temp_user=[
+    {
+    email1:"saharohit158@gmail.com",
+    pass1:"12345"
+    },
+    {
+      email2:"rhitsaha46@gmail.com",
+      pass2:"54321"
+      },
+  ];
+  
+  const newpage=(e)=>{
+    e.preventDefault();
+    //console.log("hi"+initial);
+    if(initial_user=="" || initial_pass==""){
+      alert("Email or Password is empty");
+     //e.preventDefault();
+    }
+    else if(temp_user[0].email1==e.target.value && temp_user.pass1==e.target.value){
+      alert(`Welcome ${initial_user}`);
+      window.open('/libraray/home');
+      final_user("");
+      final_pass("");
+    }
+    else if(temp_user[1].email2==e.target.value && temp_user.pass2==e.target.value){
+      alert(`Welcome ${initial_user}`);
+      window.open('/libraray/home');
+      final_user("");
+      final_pass("");
+    }
+    else{
+      alert("Email or password is incorrect");
+      final_user("");
+      final_pass("");
+    }
+
+  }
+  const changeinput=(e)=>{
+    final_user(e.target.value);
+  }
+  const changeinput1=(e)=>{
+    final_pass(e.target.value);
+  }
     return(
         <>
         <div className='user'>
@@ -16,21 +63,21 @@ function User(){
                 
                 
                 <h1 className='pb-5'>Welcome!</h1>
-                <form>
+                <form onSubmit={newpage}>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" value={initial_user} onChange={changeinput}></input>
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1"></input>
+    <label for="exampleInputPassword1" class="form-label" >Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password" value={initial_pass} onChange={changeinput1}></input>
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <Link to={'/libraray/home'}><button type="submit" class="btn btn-primary">Submit</button></Link>
+  {/* <Link to={'/libraray/home'}>*/}<button type="submit" class="btn btn-primary">Submit</button>
 </form>
 <div className="d-grid gap-2 col-6 mx-auto">
   

@@ -13,7 +13,7 @@ Route} from "react-router-dom";
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
-  <Route path="/" element={<App/>}></Route>
+  <Route path="/libraray" element={<App/>}></Route>
   <Route path="/libraray/user" element={<User/>}></Route>
   <Route path="/libraray/sign" element={<Sign/>}></Route>
   <Route path="/libraray/librarian" element={<Librarian/>}></Route>
